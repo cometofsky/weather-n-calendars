@@ -3,6 +3,12 @@ const here = {
     apiKey: 'Y3kPDyzGzcJwIQAjX_KgJCZKqhdydd5_2iLnSfzFGVI',
     format: '.json',
 };
+const cache = {
+    astronomy: {},
+    weather: {},
+    criticalWeather: {},
+    nwsAlerts: {}
+};
 
 
 //get sunrise, sunset, moonrise, moonset, moonphase details for specified location
