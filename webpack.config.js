@@ -59,7 +59,7 @@ module.exports = {
         ]
     },
     optimization: {
-        namedModules: !isProduction,
+        // namedModules: !isProduction,
         minimize    : isProduction,
         minimizer   : [
             new TerserPlugin({
