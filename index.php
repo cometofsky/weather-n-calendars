@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chronology</title>
+    <title>Kronology</title>
     
     <?php
-    $title = "Chronology | Rafi.Ninja";
-    $description = "Find Out About Dates & Sun and Moon Phases";
-    $url = "http://rafi.ninja";
+    $title = "Kronology | Rafi.ninja";
+    $description = "Find out about dates in Gregorian & Hijri calendar & Sun and Moon phases";
+    $url = "https://rafi.ninja";
     $image = "https://500px.com/photo/289490545/Beach-at-a-Glance-by-Faozul-Azim";
     ?>
     
-    <meta name="Description" content="Gregorian & Hijri Calendar, Moon Phases & Sun Rise and Set Time">
+    <meta name="Description" content="<?php echo $description; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:site_name" content="Rafi.Ninja/Kronology"/>
+    <meta property="og:site_name" content="Kronology"/>
     <meta property="og:title" content="<?php echo $title; ?>"/>
     <meta property="og:description" content="<?php echo $description; ?>"/>
     <meta property="og:type" content="website"/>

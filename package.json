@@ -1,10 +1,10 @@
 {
   "name": "kronology",
   "version": "1.0.0",
-  "description": "Today & Tomorrow in Gregorian and Hijri Calendar System",
+  "description": "Find out about dates in Gregorian & Hijri calendar & Sun and Moon phases",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "git://github.com/cometofsky/weather-n-calendars.git"
   },
   "main": "index.js",
   "scripts": {
