@@ -1,14 +1,19 @@
 {
-  "name": "webpacktut",
+  "name": "kronology",
   "version": "1.0.0",
-  "description": "",
+  "description": "Today & Tomorrow in Gregorian and Hijri Calendar System",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "prod": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=dev webpack",
     "start:dev": "webpack-dev-server",
     "start": "node src/index.js"
   },
-  "mode": "development",
+  "mode": "production",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,17 +21,23 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
     "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
     "file-loader": "^6.0.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "style-loader": "^1.1.3",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "terser-webpack-plugin": "^2.3.6",
+    "webpack": "^4.43.0",
+    "webpack-chunk-hash": "^0.6.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-manifest-plugin": "^2.2.0"
   },
   "dependencies": {
     "bulma": "^0.8.0",

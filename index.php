@@ -13,8 +13,9 @@
     $image = "https://500px.com/photo/289490545/Beach-at-a-Glance-by-Faozul-Azim";
     ?>
     
+    <meta name="Description" content="Gregorian & Hijri Calendar, Moon Phases & Sun Rise and Set Time">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:site_name" content="Rafi.Ninja"/>
+    <meta property="og:site_name" content="Rafi.Ninja/Kronology"/>
     <meta property="og:title" content="<?php echo $title; ?>"/>
     <meta property="og:description" content="<?php echo $description; ?>"/>
     <meta property="og:type" content="website"/>
@@ -29,11 +30,13 @@
     <meta name="twitter:title" content="<?php echo $title; ?>"/>
     <meta name="twitter:description" content="<?php echo $description; ?>"/>
     <meta name="twitter:image" content="<?php echo $image; ?>"/>
+
+    <link rel="stylesheet" href="dist/main.6f34be0d87fe.css"/>
 </head>
 <body>
     <section class="section">
         <div class="container">
-            <a href="/"><i class="fa fa-home"></i> Home(rafi.ninja)</a>
+            <a href="/"><i class="fa fa-home"></i> Home</a>
         </div>
     </section>
     <section class="section">
@@ -55,9 +58,6 @@
             </div>
 
         </div>
-
     </section>
-
-    <script type="text/javascript" src="dist/main.2174177c1750.js"></script>
-</body>
+    <script type="text/javascript" src="dist/main.6f34be0d87fe.js"></script></body>
 </html>

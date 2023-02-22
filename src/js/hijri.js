@@ -1,5 +1,5 @@
 const aladhan = {
-    url: 'http://api.aladhan.com/v1/gToH'
+    url: 'https://api.aladhan.com/v1/gToH',
 }
 
 
@@ -10,7 +10,6 @@ function getHijriDate(date) {
 
         /*
         ===>https://aladhan.com/islamic-calendar-api
-
         "date" (string) -
             A gregorian date formatted as DD-MM-YYYY
         "adjustment" (number) -
